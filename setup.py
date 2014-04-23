@@ -1,10 +1,10 @@
-__author__="usuario"
-__date__ ="$11-04-2014 08:54:59 AM$"
+__author__="juani"
+__date__ ="$22/04/2014 09:27:24 PM$"
 
 from setuptools import setup,find_packages
 
 setup (
-  name = 'SICP',
+  name = 'sicp',
   version = '0.1',
   packages = find_packages(),
 
@@ -13,7 +13,7 @@ setup (
 
   # Fill in these to make your Egg ready for upload to
   # PyPI
-  author = 'usuario',
+  author = 'juani',
   author_email = '',
 
   summary = 'Just another Python package for the cheese shop',

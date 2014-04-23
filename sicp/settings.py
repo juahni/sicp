@@ -62,7 +62,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2', 
         'NAME': 'sicpdb',                     
-        'USER': 'admin',
+        'USER': 'administrador',
         'PASSWORD': '12345',
     }
 }

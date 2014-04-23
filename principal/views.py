@@ -1,3 +1,8 @@
 from django.shortcuts import render
 
-# Create your views here.
+from principal.models import Proyecto
+from django.shortcuts import render_to_response
+
+def lista_proyectos(request):
+	proyectos = Proyecto.objects.all()
+	return render_to_response('lista_proyectos.html',{'lista':proyectos})

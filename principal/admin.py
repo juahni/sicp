@@ -1,3 +1,4 @@
 from django.contrib import admin
+from principal.models import Proyecto
 
-# Resgistras los modelos aqui
+admin.site.register(Proyecto)
